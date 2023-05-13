@@ -1,0 +1,15 @@
+/* Make a comment with ctrl + / */
+img{
+    width: 350px;
+    float: right;
+}
+h1{
+    color: #ee9b00;
+}
+p{
+    color: #6a4c93;
+}
+section{
+    background-color: #f8f9fa;
+    overflow: auto;
+}
