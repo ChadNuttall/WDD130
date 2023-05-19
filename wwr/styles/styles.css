@@ -1,12 +1,28 @@
+body{
+    background-color: #fefae0;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px; 
+    margin: 0;
+    padding: 0;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+.home-title{
+    font-family: 'Rubik Moonrocks';
+    font-size: 2em;
+}
+h2{
+    font-family: 'Rubik Moonrocks';
+    margin: 0;
 }
 nav a{
     text-align: center;
     background-color: #283618;
     color: #fefae0;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     color: aqua;
@@ -30,9 +46,6 @@ main section{
 #background {
     height: 725px;
 }
-body{
-    background-color: #fefae0;
-}
 header{
     background-color: #606c38;
 }
@@ -40,6 +53,10 @@ header{
     background-color: #283618;
     color: #fefae0;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     color: aqua;
@@ -48,6 +65,10 @@ header{
     background-color: #283618;
     color: #fefae0;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     color: aqua;
@@ -57,16 +78,38 @@ header{
 }
 .msg{
     background-color: #606c38;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #fefae0;
 }
 .msg p{
     color: #fefae0;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 footer{
     background-color: #606c38;
     color: #fefae0;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 footer a{
     color: #fefae0;
@@ -81,15 +124,23 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }
+.social image{
+    padding-top: 15px;
+}
 .home-title{
     color: #283618;
+    margin-top: 10px;
 }
 h4{
     color: #606c38;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }

@@ -2,3 +2,21 @@ body{
     background-color: pink;
     text-align: center;
 }
+h1{
+    color: white;
+}
+h1 :hover{
+    color: black;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: black;
+}
+section{
+    color: white;
+}
