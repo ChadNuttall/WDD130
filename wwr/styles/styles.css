@@ -210,6 +210,21 @@ h4{
     align-self: center;
 }
 
+/*----FAQ----*/
+
+.faqbox{
+    color: black;
+    margin: 10px 50px;
+    padding: 20px 20px;
+    border: solid;
+    border-radius: 10px;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: #283618;
+    background-color: #DDA15E;
+}
+
 /*----Media----*/
 
 @media screen and (max-width: 900px) {
